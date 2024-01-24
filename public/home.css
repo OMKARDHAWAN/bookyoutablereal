@@ -1,0 +1,118 @@
+ /* .container{ 
+    border: 5px solid black; 
+ } 
+ .row{ 
+    border: 3px solid red; 
+ } 
+ .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-6,.col-7,.col-8,.col-8,.col-9,.col-10,.col-11,.col-12{ 
+     border: 3px solid yellow; 
+ }  */
+
+/*front images*/
+#image{
+    background-image: url('images (20).jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    animation: slide 20s linear infinite ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+@keyframes slide {
+    10%{
+        background-image: url('images\ \(10\).jpeg');
+    }
+    50%{
+        background-image: url('imag1.jpeg');
+        
+        
+    }
+    100%{
+        background-image: url('imag2.jpeg');
+    }
+
+    
+}
+#imagetext{
+    
+    background-color :red;
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px;
+}
+#intromessage{
+    background-color: bisque;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+}
+#introtext{
+    position: relative;
+    top: 30px;
+}
+#introtext>h1{
+    font-family:Rubik Doodle Shadow;
+    color: green;
+}
+#introtext>h3{
+    font-size: 40px;
+    font-family: Rubik Bubbles;
+    
+}
+#introtext>p{
+    font-family: Luckiest Guy;
+}
+/*navigation bar -------------------------------------------*/
+#nav{
+    position: fixed;    
+    height: 80px;
+    width: 100%;
+    transition: 0.5s;
+    z-index: 2;
+}
+#name>h1{
+    color: yellow;
+    position: relative;
+    top: 15px;
+    font-family: 'Permanent Marker', cursive;
+}
+/*navbox*/
+#navbox{
+    height: 100px;
+    transition: 0.5s;
+}
+#navbox>ul{
+    display: flex;
+    position: relative;
+    float: right;
+    top: 17px;
+
+    /* border: 2px solid green; */
+}
+#box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.navlist{
+    position: relative;
+    list-style: none;
+    /* background-color: red; */
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+.navlist>a{
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Lobster', sans-serif;
+}
+
+
+/*navigation bar -------------------------------------------*/

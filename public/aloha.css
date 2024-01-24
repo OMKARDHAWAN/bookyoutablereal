@@ -1,0 +1,51 @@
+   /* .container{ border: 5px solid black;
+} 
+.row{  border: 3px solid red;
+} 
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-6,.col-7,.col-8,.col-8,.col-9,.col-10,.col-11,.col-12{  border: 3px solid yellow; 
+}    */
+#ALOHAimg{
+    width: 600px;
+    height: 450px;
+}
+#container{
+    height: max-content;
+    margin-top: 5px;
+}
+ #btn{
+    position: relative;
+    left:580px;
+    
+} 
+
+
+
+ .starterimg{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+    cursor: pointer;
+  
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#mango,#chiku,#apple{
+   position: relative;
+   bottom: 170px;
+   width: 30px;
+   height: 30px;
+}
+label>h3{
+    position: relative;
+    left: 80px;
+    
+}

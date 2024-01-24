@@ -1,0 +1,10 @@
+#img{
+    position: relative;
+    width: 130px;
+    height: 100px;
+    top: 30px;
+}
+.check{
+    position: relative;
+    bottom: 10px;
+}

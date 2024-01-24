@@ -1,0 +1,232 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="aloha.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container shadow-lg" id="container">
+    <!--IMAGE-->
+    <div class="row">
+      <div class="col-6 mt-2">
+        <img src="images (17).jpeg" alt="" id="ALOHAimg">
+      </div>
+      <!--HOTEL DETAIL USED THREE ROW AND INSDE THAT USED ONE COL-->
+      <div class="col-6">
+        <div class="row">
+          <div class="col">
+            <h1 style="font-size: 100px;">HOTEL swan</h1>
+          </div>
+        </div>
+        <!--ROW 1 ENDS HERE-->
+        <div class="row" style="position: relative; top: 10px;">
+          <div class="col">
+            RATING-⭐⭐⭐⭐⭐
+          </div>
+        </div>
+        <!--ROW 2 ENDS HERE-->
+        <div class="row" style="position: relative; top: 10px;">
+          <div class="col">
+            Opening time:9:00 to 11:00 <br>
+            Address: Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, hic.
+            <br>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repudiandae dolorem tenetur optio
+              temporibus libero cum iusto veritatis officia eveniet non, dicta dolores voluptatem ipsa dolor velit!
+              Magni eveniet amet dolore ipsum cupiditate totam nam obcaecati, error quidem aut quo ea deserunt neque,
+              fugiat mollitia accusamus similique fugit minima architecto.
+            </p>
+          </div>
+        </div>
+        <!--ROW 3 ENDS HERE-->
+
+      </div>
+    </div>
+
+
+
+
+    <!--reg-form-->
+    <div class="row">
+      <div class="col">
+        <div class="row mt-3">
+          <div class="col">
+            <h1 style="font-size: 50px ;color: violet; border-bottom: 3px solid violet;">BOOK TABLE:</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <form action="/swan" class="form-control" method="post">
+
+        <div class="row" style="margin-top: 10px;">
+          <div class="col-3" class="input">
+            <label for="name">NAME:</label>
+          </div>
+          <div class="col-9">
+            <input type="text" name="name" autocomplete="off" class="form-control" style=" border: 1px solid black;">
+          </div>
+        </div>
+        <br>
+        <div class="row mt-1">
+          <div class="col-3">
+            <label for="mobile">MOBILE:</label>
+
+          </div>
+          <div class="col-9">
+            <input type="text" name="mobile" autocomplete="off" class="form-control" style=" border: 1px solid black;">
+
+          </div>
+        </div>
+        <br>
+        <div class="row mt-1">
+          <div class="col-3">
+            <label for="email">Email:</label>
+
+          </div>
+          <div class="col-9">
+            <input type="text" name="email" autocomplete="off" class="form-control" style=" border: 1px solid black;">
+          </div>
+        </div>
+        <br>
+        <div class="row mt-1">
+          <div class="col-3">
+            <label for="people">PEOPLE:</label>
+
+          </div>
+          <div class="col-9">
+            <input type="text" name="people"  autocomplete="off" class="form-control" style=" border: 1px solid black;">
+          </div>
+        </div>
+        <br>
+        <div class="row mt-1">
+          <div class="col-3">
+            <label for="kids">KIDS:</label>
+
+          </div>
+          <div class="col-9">
+            <select name="kids" id="" class=" form-select" autocomplete="off" style="width: 100px; border: 1px solid black;">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row mt-1">
+          <div class="col-3">
+            <label for="time">TIME:</label>
+          </div>
+          <div class="col-9">
+            <input type="time" name="time1">to <input type="time" name="time2">
+          </div>
+
+        </div>
+        <br>
+        <br>
+
+    </div>
+
+
+    <!---------------------------SET MENU----------------------------->
+
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="fw-bold"> SELECT MENU</h1>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <h3 class="fw-light">STARTER: </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <input type="checkbox" name="apple" id="apple" autocomplete="off">
+
+        <label for="apple">
+          <img src="apple.jpg" alt="" class="starterimg">
+          <h3>
+            APPLE JUICE
+          </h3>
+        </label>
+      </div>
+
+      <div class="col-4">
+        <input type="checkbox" name="mango" id="mango" autocomplete="off">
+
+        <label for="mango">
+          <img src="mango.jpg" alt="" class="starterimg">
+          <h3>Mango juice</h3>
+        </label>
+      </div>
+
+      <div class="col-4">
+        <input type="checkbox" name="chiku" id="chiku" autocomplete="off">
+
+        <label for="chiku">
+          <img src="chiku.jpg" alt="" class="starterimg">
+          <h3>chiku juice</h3>
+        </label>
+      </div>
+    </div>
+    <!--main course-->
+    <div class="row mt-5">
+      <div class="col">
+        <h3 class="fw-light">Main course: </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <h3>SELECT</h3>
+      </div>
+      <div class="col-8">
+        <select name="maincourse" id="maincourse" class="form-select" autocomplete="off">
+          <option value="panner">panner</option>
+          <option value="chiken">chiken</option>
+          <option value="roti"> roti</option>
+        </select>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col ">
+        
+        <button class="btn btn-danger btn-lg rounded-5 m-2 " id="btn" name="SUBMIT">SUBMIT</button>
+        
+      </div>
+    </div>
+  </form>
+  </div>
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+
+  </div>
+
+  </div>
+  </div>
+
+  </div>
+  <!---------------------------SET MENU----------------------------->
+</body>
+<script src="aloha.js">
+    
+</script>
+
+</html>
